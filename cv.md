@@ -25,3 +25,15 @@ I am looking for new areas of activity. Purposeful. I achieve my goals.
   </ul>
 </header>
 ```
+
+## Experience
+
+## Education
+
+* University: Mozyr State Pedagogical University named after I.P.Shamyakin
+* Courses:
+  + RS School
+
+## Languages
+* English A1
+* Russian C2
