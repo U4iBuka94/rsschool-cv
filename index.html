@@ -2,12 +2,111 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="assets/img/image.jpg" alt="my photo"> 
+    <header class="header">
+        <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+              <li class="nav-item"><a href="#exepience" class="nav-link">Exepierience</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+        </div>   
+    </header>
+    <main class="main" style="background-color: rgb(174, 178, 179);">
+            <section class="section section-profile" id="profile">
+                <img src="assets/img/image.jpg" alt="my photo" width="300" height="250" class="section-profile-logo">
+              <div class="section section-title">
+                <pre><h1 class="section-title main-title">Andrei Tsarikovich</h1></pre>
+                <pre><h3 class="section-subtitle">Junior Front-End Developer</h3></pre>
+              </div>        
+            </section>
+            <div class="main-container">
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+                <li class="section-item contacts-item">
+                    Mozyr, Belarus
+                </li>
+                <li class="section-item contacts-item">
+                  Email: <a href="mailto: andre-sport@mail.ru" title="email">andre-sport@mail.ru</a>
+                </li>
+                <li class="section-item contacts-item">
+                  Github: <a href="https://github.com/U4iBuka94" title="github">U4iBuka94</a>
+                </li>
+                <li class="section-item contacts-item">
+                  Phone: <a href="tel: +3752983341110" title="phone">+375 29 834 11 10</a>
+                </li>
+              </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p> I work great as a team.
+ I am looking for new areas of activity. Purposeful. I achieve my goals.
+            </p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+                <li class="section-item">
+                  Web-development:<span> HTML, CSS</span>
+                </li>
+                <li class="section-item">
+                  Version control:<span> Git</span>
+                </li>
+              </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code Example</h2>
+            <pre><code>
+                hexa = new makearray(16);
+     for(var i = 0; i < 10; i++)
+         hexa[i] = i;
+     hexa[10]="a"; hexa[11]="b"; hexa[12]="c";
+     hexa[13]="d"; hexa[14]="e"; hexa[15]="f";
+            </code></pre>
+        </section>
+        <section class="section" id="exepience">
+            <h2 class="section-title">Exepierience</h2>
+            <p>Empty</p>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>University: Mozyr State Pedagogical University named after I.P.Shamyakin</p>
+        </section>
+        <section class="section" id="languages">
+            <h2 class="section-title">ELanguages</h2>
+            <p>English A1</p>
+        </section>
+        </div>
+        <div class="container">
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+			<div class="footer_wrap">
+                <div><a href="https://github.com/U4iBuka94" class="github nav-link">U4iBuka</a></div>
+				<a href="https://rs.school/" class="footer__link-2" target="blank"> <img class="footer_log"
+						src="https://rs.school/images/rs_school_js.svg" alt="rs-school"></a>
+				<a class="footer__link" target="blank" href="https://rs.school/"></a>
+				<h4 class="footer_year text">2022</h4>
+			</div>
+		</div>
+    </footer>
 </body>
-</html>
+</html> 
