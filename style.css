@@ -9,10 +9,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: absolute;
   }
 
   .container {
-    max-width: 1440px;
+    max-width: auto;
     margin: auto;
   }
 
@@ -150,11 +151,7 @@ body {
     font-weight: 900;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 ;
-    padding: 0 15px;
-}
+
 
 .footer__git-link {
     background-image: url(img/github.png);
@@ -186,17 +183,18 @@ body {
     text-transform: uppercase;
     letter-spacing:5px;
     color: #141314;
+    position:relative;
 
   }
 
   #section-title1{
-      position: relative;
-      left: 500px;
-      width: calc(50% - 20px);
-      padding: 10px;
-      padding-bottom: 35px;
-      border-bottom: 1px solid #5c4a4a;
-  }
+    position: relative;
+    left: 500px;
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #5c4a4a;
+}
 
   .github {
       position: relative;
@@ -229,4 +227,14 @@ body {
     font-weight: 500;
     line-height: 1.5;
     color: #6e4040;
+  }
+
+  .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    
   }
