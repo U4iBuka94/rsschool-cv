@@ -13,7 +13,7 @@ body {
   }
 
   .container {
-    max-width: auto;
+    max-width: 1440px;
     margin: auto;
   }
 
@@ -151,8 +151,6 @@ body {
     font-weight: 900;
 }
 
-
-
 .footer__git-link {
     background-image: url(img/github.png);
     background-repeat: no-repeat;
@@ -187,14 +185,6 @@ body {
 
   }
 
-  #section-title1{
-    position: relative;
-    left: 500px;
-    width: calc(50% - 20px);
-    padding: 10px;
-    padding-bottom: 35px;
-    border-bottom: 1px solid #5c4a4a;
-}
 
   .github {
       position: relative;
